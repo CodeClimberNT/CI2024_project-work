@@ -1,6 +1,5 @@
 # Computational Intelligence 2024 - Final Project
 
-
 ## Symbolic Regression with Genetic Programming
 
 This project implements a **symbolic regression system** based on **genetic programming**. Using syntax trees, the system evolves mathematical expressions that best approximate a given dataset.
@@ -8,6 +7,7 @@ This project implements a **symbolic regression system** based on **genetic prog
 
 
 ### **Key Features**
+
 - **Genetic Programming (GP)**:
   - Evolution of symbolic expressions.
   - Selection, mutation, and crossover operators.
@@ -27,13 +27,15 @@ This project implements a **symbolic regression system** based on **genetic prog
     2. Expression Tree
     3. Regression results with predictions
 
-## **Non-Key Features**
+### **Non-Key Features**
+
 - **Sounds**
   - Plays a nice "ding!" sound (default Windows alert sound) when the algorithm finishes
 
 ---
 
 ### **Project Structure**
+
 The project is organized into the following main components:
 
 - **`src/main.py`**: 
@@ -62,23 +64,28 @@ The project is organized into the following main components:
 ---
 
 ### **Installation**
+
 To run the project, ensure you have Python >= 3.8 and **Poetry** installed.
 
 ### **Steps**
 
 #### **1. Install dependencies**
+
 Install the necessary dependencies using Poetry:
 ```bash
 poetry install
 ```
 
 #### **2. Run the project**
+
 Activate the Poetry environment and execute the main script:
 ```bash
 poetry shell
 python src/main.py
 ```
----
-## **Contributes**
+
+
+## **Contributors**
+
 - Fiata Rosamaria
 - Taormina Nicolò
